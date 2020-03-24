@@ -1,0 +1,85 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-logo img{
+  height:50px;
+}
+.course-img{
+  height:122px;
+  background-color: grey;
+}
+
+.addcart {
+    float:right;
+  }
+.addcart button{
+  background-color: red;
+  color:white;
+  padding:0.5em 1em;
+}
+.search-course {
+  height:40px;
+  width:40px;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  color: #ec5252;
+}
+.search-symbol:before {
+  content:  "\F002";
+}
+.header-sub{ 
+  padding-top: 5px;
+}
+.header-section {
+  background-color:#fff;
+  border-bottom:1px solid #d3d3d3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0 8px 6px -6px rgb(212, 209, 209);
+}
+
+.header-logo{
+  display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.header-left {
+  min-width: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+.courses-sugg-list{
+  position: absolute;
+  top:38px;
+  z-index:99;
+  background-color: #fff;
+  border:1px solid grey;
+  width:100%
+}
+.courses-sugg-list-item{
+  padding-left:2px;
+  border-bottom:1px solid #dedede;
+}
+.header-left input {
+  width:300px
+}
+.header-right {
+  min-width: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-bar:input[type='text'] {
+  width:300px
+}
+.cart-icon {
+  height:40px;
+  width:40px;
+}
